@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".FrontpageActivity">
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_element"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:hint="First Name"
+        android:inputType="text"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_element"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_element"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        android:inputType="text"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_element"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="451dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="57dp"
+        android:background="@drawable/rounded_element"
+        android:text="SIGN UP"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editLastName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your fries deserve better."
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join TomatoBasil now. It's free!"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/grey"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="182dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
